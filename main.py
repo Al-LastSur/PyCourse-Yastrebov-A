@@ -13,13 +13,13 @@
 #
 # print("Total desks ", int(-(-students1 // 2 )) + int(-(-students2 // 2)) + int(-(-students3 // 2 )))
 
-# Task 5.
-actualNo = int(input("The ticket says it's: ", ))
-seatedNo = int(input("But actually was: ", ))
-result = 0
-if seatedNo == actualNo:
-    print("We need more info")
-else:
-    result = seatedNo - 1 + actualNo
-
-print("The train has: ", result, " vagons")
+# # Task 5.
+# actualNo = int(input("The ticket says it's: ", ))
+# seatedNo = int(input("But actually was: ", ))
+# result = 0
+# if seatedNo == actualNo:
+#     print("We need more info")
+# else:
+#     result = seatedNo - 1 + actualNo
+#
+# print("The train has: ", result, " vagons")

@@ -10,9 +10,9 @@
 
 # # Task 2. Children make origami birds
 # OrigamiBirds = int( input ("Amount of Orighami Birds Made Altogether: ", ))
-# temp = OrigamiBirds / 6
-# K = int(temp * 4)
-# PS = int(temp)
+# temp = OrigamiBirds // 6
+# K = temp * 4
+# PS = temp
 # print (PS , K, PS)
 
 # # #Task 3. Lucky Ticket
@@ -27,7 +27,7 @@
 # # print (result)
 
 # Ticket = int(input("Input Ticket Number(6-digits): ", )) # if input transferred as integer
-# FirstHalf = int(Ticket / 1000)
+# FirstHalf = int(Ticket / 1000) // or 10**4
 # SecondHalf = int(Ticket % 1000)
 # FirstSum = 0
 # SecondSum = 0
@@ -50,7 +50,7 @@ print("You have a chocolate bar")
 long = int(input("The bar's length is: ", ))
 wide = int(input("The bar's width os : ", ))
 split = int(input("Can you take pieces with one cut: ", ))
-if (split % long == 0 or split % wide == 0):
+if (split % long == 0 or split % wide == 0) and a * b > c:
     print("You can take pieces with one cut")
 else:
     print("You can't take pieces with one cut")
