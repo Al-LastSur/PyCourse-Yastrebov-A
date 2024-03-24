@@ -22,23 +22,23 @@
 #     elif counterJ < counterI:
 #         print ("turn", counterJ)
 
-# # Task 2. Brother and Sister
-# s = int(input("Sum of numbers " ))
-# p = int(input("Plex of numbers " ))
-# y = 0
-# for x in range(1, 1001):
-#     y = s - x
-#     if y == p / x:
-#         print(x, y)
-#         break
-#     else:
-#         x+=1
+# Task 2. Brother and Sister
+s = int(input("Sum of numbers " ))
+p = int(input("Plex of numbers " ))
+y = 0
+for x in range(1, 1001):
+    y = s - x
+    if y == p / x:
+        print(x, y)
+        break
+    else:
+        x+=1
 
-# Task 3. All numbers of 2 grade
-n = 16
-for i in range(0, n+1):
-    result = 2 ** i
-    if i == 0:
-        print (1)
-    if (result <= n) and (result % 2 == 0 ):   
-        print (result)
+# # Task 3. All numbers of 2 grade
+# n = 16
+# for i in range(0, n+1):
+#     result = 2 ** i
+#     if i == 0:
+#         print (1)
+#     if (result <= n) and (result % 2 == 0 ):   
+#         print (result)
