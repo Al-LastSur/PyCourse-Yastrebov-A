@@ -108,4 +108,45 @@
 # # for (k, v) in dictionary.items():# to see the items and keys with function
 # #     print (k,v)    
 
-# multitudes 
+# # multitudes 
+# colors = { "red", "green", "yellow", "blue"} # u cannot add the same item to the multitude
+# print (colors)
+# colors.add ("grey") # to add some item into the multitude
+# print (colors)
+# colors.remove("red") # to remove some item from the multitude if u try remove the same item onnce more - its a mistake
+# colors.discard("blue") # not simply remove but check and then remove if it is inside the multitude
+# print(colors)
+# colors.clear() # to clear all items from the multitude
+# print(colors)
+
+# q = set() # set an empty multitude
+# a = {1, 2, 3, 5, 8}                          
+# b = {2, 5, 8, 13, 21}                           
+# # c = a.copy()                                    # {1, 2, 3, 5, 8} 
+# # u = a.union(b)                                  # {1, 2, 3, 5, 8, 13, 21} 
+# # i = a.intersection(b)                           # {2, 5, 8}
+# # dl = a.difference(b)                            # {1, 3}
+# # dr = b.difference(a)                            # {13, 21}
+# q = a.union(b). difference(a.intersection(b))   # {1, 21, 3, 13} - 1) a.intesection(b) 2) a,union(b) 3) difference between a.union(b) and a.intersection(b)
+# print (q)
+
+# # frozen multitudes
+# a = {1, 2, 3, 5, 8, 13, 21}
+# b = frozenset(a) # u cannot change the frozen one
+# print(b)
+
+# list generators = list comprehension
+# list_1 = [exp for item iterable] # add exp so many times as iterable
+# list_1 = []
+# for i in range(1,101):
+#     list_1.append(i)
+# list_1 = [i for i in range (1,101)] # shorter form of the above cycle
+# print (list_1)
+# list_1 = [exp for item in terable (if conditional)]
+# list_1 = [i for i in range (1,101) if i % 2  == 0]
+# print (list_1)
+# list_1 = [(i,i) for i in range(1, 101) if i %2 == 0]
+# print (list_1)
+list_1 = [i * 2 for i in range (10) if i %2 == 0]
+print(list_1)
+
