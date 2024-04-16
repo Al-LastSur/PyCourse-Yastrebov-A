@@ -21,10 +21,12 @@ n = 4
 
 list_1 = []
 # for i in range (n+1): # uncomment alternatively
-for i in range (1, n+1):
+# for i in range (1, n+1):
+for i in range (1,n):
     # if i == 0:
     #     i=+1
     # else:
-        list_1.append(a1 + (i-1) * d)
+        # list_1.append(a1 + (i-1) * d)
+        list_1.append(a1 + i * d)
 for i in list_1:
     print (i)
